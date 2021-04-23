@@ -1,0 +1,9 @@
+{
+    "value": [
+        "ref:36a1e12b:/Users/ggutierrez/Work/csexamples/learnscala/example01/foo/src/random.scala",
+        "ref:e9784eeb:/Users/ggutierrez/Work/csexamples/learnscala/example01/foo/src/concurrency.scala",
+        "ref:e1099602:/Users/ggutierrez/Work/csexamples/learnscala/example01/foo/src/Example.scala"
+    ],
+    "valueHash": 1325184956,
+    "inputsHash": 559763311
+}

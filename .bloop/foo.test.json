@@ -1,0 +1,155 @@
+{
+    "version" : "1.1.2",
+    "project" : {
+        "name" : "foo.test",
+        "directory" : "/Users/ggutierrez/Work/csexamples/learnscala/example-3/foo/test",
+        "sources" : [
+            "/Users/ggutierrez/Work/csexamples/learnscala/example-3/foo/test/src"
+        ],
+        "dependencies" : [
+            "foo"
+        ],
+        "classpath" : [
+            "/Users/ggutierrez/Work/csexamples/learnscala/example-3/.bloop/out/foo/classes",
+            "/Users/ggutierrez/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/portable-scala/portable-scala-reflect_2.13/0.1.1/portable-scala-reflect_2.13-0.1.1.jar",
+            "/Users/ggutierrez/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/test-interface/1.0/test-interface-1.0.jar",
+            "/Users/ggutierrez/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.2/scala-reflect-2.13.2.jar",
+            "/Users/ggutierrez/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.2/scala-library-2.13.2.jar",
+            "/Users/ggutierrez/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/utest_2.13/0.7.4/utest_2.13-0.7.4.jar"
+        ],
+        "out" : "/Users/ggutierrez/Work/csexamples/learnscala/example-3/.bloop/out/foo.test",
+        "classesDir" : "/Users/ggutierrez/Work/csexamples/learnscala/example-3/.bloop/out/foo.test/classes",
+        "resources" : [
+            "/Users/ggutierrez/Work/csexamples/learnscala/example-3/foo/test/resources"
+        ],
+        "scala" : {
+            "organization" : "org.scala-lang",
+            "name" : "scala-compiler",
+            "version" : "2.13.2",
+            "options" : [
+                "-P:semanticdb:sourceroot:/Users/ggutierrez/Work/csexamples/learnscala/example-3",
+                "-P:semanticdb:synthetics:on",
+                "-P:semanticdb:failures:warning"
+            ],
+            "jars" : [
+                "/Users/ggutierrez/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.2/scala-compiler-2.13.2.jar",
+                "/Users/ggutierrez/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.2/scala-reflect-2.13.2.jar",
+                "/Users/ggutierrez/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.3.1/jna-5.3.1.jar",
+                "/Users/ggutierrez/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jline/jline/3.14.1/jline-3.14.1.jar",
+                "/Users/ggutierrez/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.2/scala-library-2.13.2.jar"
+            ]
+        },
+        "java" : {
+            "options" : [
+            ]
+        },
+        "test" : {
+            "frameworks" : [
+                {
+                    "names" : [
+                        "utest.runner.Framework"
+                    ]
+                }
+            ],
+            "options" : {
+                "excludes" : [
+                ],
+                "arguments" : [
+                ]
+            }
+        },
+        "platform" : {
+            "name" : "jvm",
+            "config" : {
+                "options" : [
+                ]
+            },
+            "mainClass" : [
+            ]
+        },
+        "resolution" : {
+            "modules" : [
+                {
+                    "organization" : "org.scala-lang",
+                    "name" : "scala-library",
+                    "version" : "2.13.2",
+                    "artifacts" : [
+                        {
+                            "name" : "scala-library",
+                            "path" : "/Users/ggutierrez/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.2/scala-library-2.13.2.jar"
+                        },
+                        {
+                            "name" : "scala-library",
+                            "classifier" : "sources",
+                            "path" : "/Users/ggutierrez/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.2/scala-library-2.13.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.scala-lang",
+                    "name" : "scala-reflect",
+                    "version" : "2.13.1",
+                    "artifacts" : [
+                        {
+                            "name" : "scala-reflect",
+                            "path" : "/Users/ggutierrez/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.1/scala-reflect-2.13.1.jar"
+                        },
+                        {
+                            "name" : "scala-reflect",
+                            "classifier" : "sources",
+                            "path" : "/Users/ggutierrez/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.1/scala-reflect-2.13.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.portable-scala",
+                    "name" : "portable-scala-reflect_2.13",
+                    "version" : "0.1.1",
+                    "artifacts" : [
+                        {
+                            "name" : "portable-scala-reflect_2.13",
+                            "path" : "/Users/ggutierrez/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/portable-scala/portable-scala-reflect_2.13/0.1.1/portable-scala-reflect_2.13-0.1.1.jar"
+                        },
+                        {
+                            "name" : "portable-scala-reflect_2.13",
+                            "classifier" : "sources",
+                            "path" : "/Users/ggutierrez/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/portable-scala/portable-scala-reflect_2.13/0.1.1/portable-scala-reflect_2.13-0.1.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "com.lihaoyi",
+                    "name" : "utest_2.13",
+                    "version" : "0.7.4",
+                    "artifacts" : [
+                        {
+                            "name" : "utest_2.13",
+                            "path" : "/Users/ggutierrez/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/utest_2.13/0.7.4/utest_2.13-0.7.4.jar"
+                        },
+                        {
+                            "name" : "utest_2.13",
+                            "classifier" : "sources",
+                            "path" : "/Users/ggutierrez/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/utest_2.13/0.7.4/utest_2.13-0.7.4-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.scala-sbt",
+                    "name" : "test-interface",
+                    "version" : "1.0",
+                    "artifacts" : [
+                        {
+                            "name" : "test-interface",
+                            "path" : "/Users/ggutierrez/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/test-interface/1.0/test-interface-1.0.jar"
+                        },
+                        {
+                            "name" : "test-interface",
+                            "classifier" : "sources",
+                            "path" : "/Users/ggutierrez/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/test-interface/1.0/test-interface-1.0-sources.jar"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,6 @@
+-------------------------------- Running Tests --------------------------------
+[31mX[39m foo.ExampleTests.hello [2m36ms[0m 
+  [91m[4mutest.AssertionError[39m[24m: [91massert(result == "Hello world")[39m
+  [91mresult: String = Hello World[39m
+    [31mutest.asserts.Asserts$.[91massertImpl[31m([91mAsserts.scala[39m:[91m30[31m)[39m
+    [31mfoo.ExampleTests$.[91m$anonfun$tests$2[31m([91mExampleTests.scala[39m:[91m7[31m)[39m

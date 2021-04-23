@@ -1,0 +1,14 @@
+{
+    "value": [
+        [
+            "foo",
+            "ref:4d3a24cc:/Users/ggutierrez/Work/csexamples/learnscala/example-3/.bloop/foo.json"
+        ],
+        [
+            "foo.test",
+            "ref:270db8b4:/Users/ggutierrez/Work/csexamples/learnscala/example-3/.bloop/foo.test.json"
+        ]
+    ],
+    "valueHash": 1349183661,
+    "inputsHash": -523649369
+}

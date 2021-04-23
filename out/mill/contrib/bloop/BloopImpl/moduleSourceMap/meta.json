@@ -1,0 +1,12 @@
+{
+    "value": {
+        "foo": [
+            "/Users/ggutierrez/Work/csexamples/learnscala/example-3/foo/src"
+        ],
+        "foo.test": [
+            "/Users/ggutierrez/Work/csexamples/learnscala/example-3/foo/test/src"
+        ]
+    },
+    "valueHash": 1648048032,
+    "inputsHash": -786816899
+}

@@ -1,0 +1,74 @@
+INFO  time: initialize in 0.94s
+WARN  no build target: /Users/ggutierrez/Work/csexamples/learnscala/example-3/foo/src/concurrency.scala
+WARN  no build target: /Users/ggutierrez/Work/csexamples/learnscala/example-3/foo/src/random.scala
+WARN  no build target: /Users/ggutierrez/Work/csexamples/learnscala/example-3/foo/src/Example.scala
+WARN  no build target: /Users/ggutierrez/Work/csexamples/learnscala/example-3/foo/test/src/ExampleTests.scala
+INFO  running '/var/folders/qx/v5sfkc7x267141q7q9sbqct00000gp/T/metals17214788890787990537/millw --mill-version 0.4.0 --predef /var/folders/qx/v5sfkc7x267141q7q9sbqct00000gp/T/metals17214788890787990537/predef.sc mill.contrib.Bloop/install'
+INFO  Compiling (synthetic)/ammonite/predef/interpBridge.sc
+INFO  Compiling (synthetic)/ammonite/predef/DefaultPredef.sc
+INFO  Compiling /var/folders/qx/v5sfkc7x267141q7q9sbqct00000gp/T/metals17214788890787990537/predef.sc
+INFO  Compiling /Users/ggutierrez/Work/csexamples/learnscala/example-3/build.sc
+INFO  [1/42] foo.sources 
+INFO  [2/42] foo.generatedSources 
+INFO  [3/42] foo.allSources 
+INFO  [4/42] foo.test.sources 
+INFO  [5/42] foo.test.generatedSources 
+INFO  [6/42] foo.test.allSources 
+INFO  [7/42] mill.contrib.bloop.BloopImpl.moduleSourceMap 
+INFO  [8/42] foo.unmanagedClasspath 
+INFO  [9/42] foo.scalaVersion 
+INFO  [10/42] foo.platformSuffix 
+INFO  [11/42] foo.compileIvyDeps 
+INFO  [12/42] foo.ivyDeps 
+INFO  [13/42] foo.transitiveIvyDeps 
+INFO  [14/42] foo.scalaOrganization 
+INFO  [15/42] foo.resources 
+INFO  [16/42] foo.scalacPluginIvyDeps 
+INFO  [17/42] foo.scalacPluginClasspath 
+INFO  [18/42] foo.scalacOptions 
+INFO  [19/42] foo.scalaCompilerClasspath 
+INFO  [20/42] foo.javacOptions 
+INFO  [21/42] foo.forkArgs 
+INFO  [22/42] foo.mainClass 
+INFO  [23/42] foo.scalaLibraryIvyDeps 
+INFO  [24/42] foo.bloop.config 
+INFO  [25/42] foo.bloop.writeConfig 
+INFO  Wrote /Users/ggutierrez/Work/csexamples/learnscala/example-3/.bloop/foo.json
+INFO  [26/42] foo.test.unmanagedClasspath 
+INFO  [27/42] foo.test.scalaVersion 
+INFO  [28/42] foo.test.platformSuffix 
+INFO  [29/42] foo.test.compileIvyDeps 
+INFO  [30/42] foo.test.ivyDeps 
+INFO  [31/42] foo.test.transitiveIvyDeps 
+INFO  [32/42] foo.test.scalaOrganization 
+INFO  [33/42] foo.test.resources 
+INFO  [34/42] foo.test.scalacPluginClasspath 
+INFO  [35/42] foo.test.scalaCompilerClasspath 
+INFO  [36/42] foo.test.testFrameworks 
+INFO  [37/42] foo.test.forkArgs 
+INFO  [38/42] foo.test.mainClass 
+INFO  [39/42] foo.test.scalaLibraryIvyDeps 
+INFO  [40/42] foo.test.bloop.config 
+INFO  [41/42] foo.test.bloop.writeConfig 
+INFO  Wrote /Users/ggutierrez/Work/csexamples/learnscala/example-3/.bloop/foo.test.json
+INFO  [42/42] mill.contrib.bloop.BloopImpl.install 
+INFO  build tool exit: 0
+INFO  time: ran 'mill bloopInstall' in 49s
+INFO  time: initialize in 0.9s
+INFO  skipping build import with status 'Installed'
+WARN  no build target: /Users/ggutierrez/Work/csexamples/learnscala/example01/foo/src/Example.scala
+WARN  code navigation does not work for the file '/Users/ggutierrez/Work/csexamples/learnscala/example01/foo/src/Example.scala' because it doesn't belong to a build target.
+INFO  no build target: using presentation compiler with only scala-library
+WARN  no build target: /Users/ggutierrez/Work/csexamples/learnscala/example01/foo/src/Example.scala
+WARN  no build target: 
+WARN  code navigation does not work for the file '/Users/ggutierrez/Work/csexamples/learnscala/example01/foo/src/Example.scala' because it doesn't belong to a build target.
+WARN  no build target: /Users/ggutierrez/Work/csexamples/learnscala/example01/foo/src/Example.scala
+WARN  no build target: 
+WARN  code navigation does not work for the file '/Users/ggutierrez/Work/csexamples/learnscala/example01/foo/src/Example.scala' because it doesn't belong to a build target.
+WARN  no build target: /Users/ggutierrez/Work/csexamples/learnscala/example01/foo/src/Example.scala
+WARN  no build target: 
+WARN  code navigation does not work for the file '/Users/ggutierrez/Work/csexamples/learnscala/example01/foo/src/Example.scala' because it doesn't belong to a build target.
+WARN  no build target: /Users/ggutierrez/Work/csexamples/learnscala/example01/foo/src/Example.scala
+WARN  no build target: 
+WARN  code navigation does not work for the file '/Users/ggutierrez/Work/csexamples/learnscala/example01/foo/src/Example.scala' because it doesn't belong to a build target.
+WARN  no build target: /Users/ggutierrez/Work/csexamples/learnscala/example01/foo/test/src/ExampleTests.scala
