@@ -1,6 +1,0 @@
-#FileLock
-#Mon Mar 15 09:04:03 COT 2021
-server=192.168.0.11\:55275
-hostName=192.168.0.11
-method=file
-id=17836336d7cfba2c9127e182b585816912b419597de

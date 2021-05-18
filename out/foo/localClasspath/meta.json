@@ -1,8 +1,8 @@
 {
     "value": [
-        "ref:c984eca8:/Users/ggutierrez/Work/csexamples/learnscala/example01/foo/resources",
-        "ref:2bee5f2b:/Users/ggutierrez/Work/csexamples/learnscala/example01/out/foo/compile/dest/classes"
+        "ref:c984eca8:/mnt/c/Users/Leandro/Documents/Client Server Architecture/Example1/example01/foo/resources",
+        "ref:f587c7ad:/mnt/c/Users/Leandro/Documents/Client Server Architecture/Example1/example01/out/foo/compile/dest/classes"
     ],
-    "valueHash": 1655141269,
-    "inputsHash": 1719876763
+    "valueHash": 1510016002,
+    "inputsHash": -1856109424
 }

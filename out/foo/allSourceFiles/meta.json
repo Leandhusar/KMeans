@@ -1,9 +1,10 @@
 {
     "value": [
-        "ref:36a1e12b:/Users/ggutierrez/Work/csexamples/learnscala/example01/foo/src/random.scala",
-        "ref:e9784eeb:/Users/ggutierrez/Work/csexamples/learnscala/example01/foo/src/concurrency.scala",
-        "ref:e1099602:/Users/ggutierrez/Work/csexamples/learnscala/example01/foo/src/Example.scala"
+        "ref:13b96c2d:/mnt/c/Users/Leandro/Documents/Client Server Architecture/Example1/example01/foo/src/concurrency.scala",
+        "ref:6b48ac81:/mnt/c/Users/Leandro/Documents/Client Server Architecture/Example1/example01/foo/src/Example.scala",
+        "ref:bcd9560d:/mnt/c/Users/Leandro/Documents/Client Server Architecture/Example1/example01/foo/src/KMeans.scala",
+        "ref:400d64dd:/mnt/c/Users/Leandro/Documents/Client Server Architecture/Example1/example01/foo/src/random.scala"
     ],
-    "valueHash": 1325184956,
-    "inputsHash": 559763311
+    "valueHash": 510354750,
+    "inputsHash": 882679640
 }
