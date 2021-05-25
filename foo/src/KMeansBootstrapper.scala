@@ -45,7 +45,7 @@ object KMeansBootstrapper{
     calculateNearestCentroids()
 
     //Recalculate the centroids
-    def recalculateCentroids(){
+    def _recalculateCentroids(){
         for(i <- 0 to (centroids.length - 1)){
             var auxCentroid = Array(0.0, 0.0, 0.0)
             var counter = 0
@@ -60,8 +60,29 @@ object KMeansBootstrapper{
             for(k <- 0 to (auxCentroid.length - 1)){
                 centroids(i)(k) = auxCentroid(k) / counter
             }
-            prevSSE = SSE
-            SSE = calculateNewSSE()
+        }
+    }
+
+    def recalculateCentroids(l: Int, r: Int){
+        if(r - l < 20){
+            for(i <- l to r){
+                var auxCentroid = Array(0.0, 0.0, 0.0)
+                var counter = 0
+                for(k <- 0 to (groups.length - 1)){
+                    if(groups(k) == i){
+                        for(j <- 0 to (auxCentroid.length - 1)){
+                            auxCentroid(j) = auxCentroid(j) + dataset(k)(j)
+                        }
+                        counter = counter + 1
+                    }
+                }
+                for(k <- 0 to (auxCentroid.length - 1)){
+                    centroids(i)(k) = auxCentroid(k) / counter
+                }
+            }
+        }
+        else{
+            parallel(recalculateCentroids(l, (r / 2)), recalculateCentroids((r / 2) + 1, r))
         }
     }
 
@@ -119,9 +140,9 @@ object KMeansBootstrapper{
             sum
         }
         else{
-            var parallelResult = parallel(calculateDistance(point, centroid, l, (r/2), minValues, maxValues), calculateDistance(point, centroid, (r/2)+1, r, minValues, maxValues))
-            sum += parallelResult._1
-            sum += parallelResult._2
+            //parallel(calculateDistance(point, centroid, l, (r/2), minValues, maxValues), calculateDistance(point, centroid, (r/2)+1, r, minValues, maxValues))
+            sum += calculateDistance(point, centroid, l, (r/2), minValues, maxValues)
+            sum += calculateDistance(point, centroid, (r/2)+1, r, minValues, maxValues)
             sum
         }
     }
