@@ -45,24 +45,6 @@ object KMeansBootstrapper{
     calculateNearestCentroids()
 
     //Recalculate the centroids
-    def _recalculateCentroids(){
-        for(i <- 0 to (centroids.length - 1)){
-            var auxCentroid = Array(0.0, 0.0, 0.0)
-            var counter = 0
-            for(k <- 0 to (groups.length - 1)){
-                if(groups(k) == i){
-                    for(j <- 0 to (auxCentroid.length - 1)){
-                        auxCentroid(j) = auxCentroid(j) + dataset(k)(j)
-                    }
-                    counter = counter + 1
-                }
-            }
-            for(k <- 0 to (auxCentroid.length - 1)){
-                centroids(i)(k) = auxCentroid(k) / counter
-            }
-        }
-    }
-
     def recalculateCentroids(l: Int, r: Int){
         if(r - l < 20){
             for(i <- l to r){
