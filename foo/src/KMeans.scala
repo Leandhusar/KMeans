@@ -1,39 +1,40 @@
 package foo
 
+import concurrencyCommon._
+import randomCommon._
+import KMeansBootstrapper._
+
 object KMeans{
-    //This function calculates the difference between a point and a centroid
-    //It returns a number between 0 and 1
-    def calculateDistance(point: Array[Double], centroid: Array[Double], l: Int, r: Int, minValues: Array[Double], maxValues: Array[Double]): Double = {
-        var sum: Double = 0
-        if(r - l < 20){
-            for(index <- l to r){
-                var pointIndexValue = normalizeValues(point(index), index, minValues(index), maxValues(index))
-                var centroidIndexValue = normalizeValues(centroid(index), index, minValues(index), maxValues(index))
-                sum += (pointIndexValue - centroidIndexValue) * (pointIndexValue - centroidIndexValue)
-            }
-            sum
-        }
-        else{
-            sum += calculateDistance(point, centroid, l, (r/2), minValues, maxValues)
-            sum += calculateDistance(point, centroid, (r/2)+1, r, minValues, maxValues)
-            sum
-        }
-    }
+  def main(args: Array[String]): Unit = {
+      //printArray(groups)
+      //printCentroids(centroids)
+      
+      SSE = calculateNewSSE()
 
-    def normalizeValues(point: Double, index: Int, minValue: Double, maxValue: Double): Double = {
-        var valuePrime: Double = (point - minValue) / (maxValue - minValue)
-        valuePrime
-    }
+      calculateNearestCentroids()
+      recalculateCentroids()
 
-    def printArray(array: Array[Double]){
-        for(i <- 0 to (array.length - 1)){
-            println(array(i))
-        }
-    }
+      while((prevSSE - SSE) > epsilon){
+          calculateNearestCentroids()
+          recalculateCentroids()
+      }
 
-    def printArray(array: Array[Int]){
-        for(i <- 0 to (array.length - 1)){
-            println(array(i))
-        }
+      print(prevSSE, SSE)
+      
+      //printArray(groups)
+      //printCentroids(centroids)
+  }
+
+  /*def run[B](block: => B) : Double = {
+    val time = config (
+      Key.exec.benchRuns -> 20
+    ) withWarmer{
+      new Warmer.Default
+    } withMeasurer{
+      new Measurer.IgnoringGC
+    } measure{
+      block
     }
+    return time.value
+  }*/
 }

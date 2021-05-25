@@ -1,5 +1,6 @@
 package foo
 import utest._
+
 object ExampleTests extends TestSuite{
   def tests = Tests{
     test("hello"){
