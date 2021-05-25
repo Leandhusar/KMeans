@@ -1,10 +1,10 @@
 {
     "value": [
         "ref:13b96c2d:/mnt/c/Users/Leandro/Documents/Client Server Architecture/Example1/example01/foo/src/concurrency.scala",
-        "ref:0d217313:/mnt/c/Users/Leandro/Documents/Client Server Architecture/Example1/example01/foo/src/KMeans.scala",
+        "ref:4868c3e1:/mnt/c/Users/Leandro/Documents/Client Server Architecture/Example1/example01/foo/src/KMeans.scala",
         "ref:41a976b0:/mnt/c/Users/Leandro/Documents/Client Server Architecture/Example1/example01/foo/src/KMeansBootstrapper.scala",
         "ref:400d64dd:/mnt/c/Users/Leandro/Documents/Client Server Architecture/Example1/example01/foo/src/random.scala"
     ],
-    "valueHash": 1520173082,
-    "inputsHash": 1585681977
+    "valueHash": 2117903056,
+    "inputsHash": -1617052673
 }

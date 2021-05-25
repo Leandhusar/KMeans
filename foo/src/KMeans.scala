@@ -36,8 +36,6 @@ object KMeans{
           prevSSE = SSE
           SSE = calculateNewSSE()
       }
-
-      print(prevSSE, SSE)
       
       //printArray(groups)
       //printCentroids(centroids)
