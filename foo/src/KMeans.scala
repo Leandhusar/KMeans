@@ -27,13 +27,13 @@ object KMeans{
       
       SSE = calculateNewSSE()
 
-      calculateNearestCentroids()
+      calculateNearestCentroids(0, centroids.length - 1)
       recalculateCentroids(0, centroids.length - 1)
       prevSSE = SSE
       SSE = calculateNewSSE()
 
       while((prevSSE - SSE) > epsilon){
-          calculateNearestCentroids()
+          calculateNearestCentroids(0, centroids.length - 1)
           recalculateCentroids(0, centroids.length - 1)
           prevSSE = SSE
           SSE = calculateNewSSE()

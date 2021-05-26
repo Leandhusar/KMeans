@@ -1,6 +1,7 @@
 package foo
 
 import concurrencyCommon._
+import randomCommon._
 import Data._
 
 object KMeansBootstrapper{
@@ -40,7 +41,7 @@ object KMeansBootstrapper{
         Array(30.0,1.0,3.0,145.0,214.0,0.0,1.0,120.0,0.0,1.2,1.0,0.0,3.0,1.0)
     )
 
-    calculateNearestCentroids()
+    calculateNearestCentroids(0, dataset.length - 1)
 
     //Reinitialize centroids, groups and SSE
     def reinitialize(){
@@ -70,8 +71,8 @@ object KMeansBootstrapper{
             }
         }
         else{
-            recalculateCentroids(l, (r / 2))
-            recalculateCentroids((r / 2) + 1, r)
+            recalculateCentroids(l, l + ((r - l) / 2))
+            recalculateCentroids(l + ((r - l) / 2) + 1, r)
         }
     }
 
@@ -85,18 +86,24 @@ object KMeansBootstrapper{
         counter
     }
 
-    def calculateNearestCentroids(){
-        for(i <- 0 to (dataset.length - 1)){
-            var nearestCentroid: Int = 0
-            var auxDistance: Double = 123456789.00
-            for(k <- 0 to (centroids.length - 1)){
-                var aux = calculateDistance(dataset(i), centroids(k), 0, dataset(i).length-1, minData, maxData)
-                if(aux < auxDistance){
-                    auxDistance = aux
-                    nearestCentroid = k
+    def calculateNearestCentroids(l: Int, r: Int){
+        if((r - l) < 1000){
+            for(i <- l to r){
+                var nearestCentroid: Int = 0
+                var auxDistance: Double = 123456789.00
+                for(k <- 0 to (centroids.length - 1)){
+                    var aux = calculateDistance(dataset(i), centroids(k), 0, dataset(i).length-1, minData, maxData)
+                    if(aux < auxDistance){
+                        auxDistance = aux
+                        nearestCentroid = k
+                    }
                 }
+                groups(i) = nearestCentroid
             }
-            groups(i) = nearestCentroid
+        }
+        else{
+            calculateNearestCentroids(l, l + ((r - l) / 2))
+            calculateNearestCentroids(l + ((r - l) / 2) + 1, r)
         }
     }
 
@@ -130,8 +137,8 @@ object KMeansBootstrapper{
         }
         else{
             //parallel(calculateDistance(point, centroid, l, (r/2), minValues, maxValues), calculateDistance(point, centroid, (r/2)+1, r, minValues, maxValues))
-            sum += calculateDistance(point, centroid, l, (r/2), minValues, maxValues)
-            sum += calculateDistance(point, centroid, (r/2)+1, r, minValues, maxValues)
+            sum += calculateDistance(point, centroid, l, l + ((r - l) / 2), minValues, maxValues)
+            sum += calculateDistance(point, centroid, l + ((r - l) / 2) + 1, r, minValues, maxValues)
             sum
         }
     }

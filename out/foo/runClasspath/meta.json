@@ -1,9 +1,9 @@
 {
     "value": [
         "ref:c984eca8:/mnt/c/Users/Leandro/Documents/Client Server Architecture/Example1/example01/foo/resources",
-        "ref:33fbd870:/mnt/c/Users/Leandro/Documents/Client Server Architecture/Example1/example01/out/foo/compile/dest/classes",
+        "ref:295dab99:/mnt/c/Users/Leandro/Documents/Client Server Architecture/Example1/example01/out/foo/compile/dest/classes",
         "qref:4987f6fc:/mnt/c/Users/Leandro/Documents/Client Server Architecture/Example1/example01/.coursier/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.2/scala-library-2.13.2.jar"
     ],
-    "valueHash": 2115400944,
-    "inputsHash": -980926432
+    "valueHash": -1909301274,
+    "inputsHash": -96383100
 }

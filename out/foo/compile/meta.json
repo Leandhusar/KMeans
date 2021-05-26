@@ -1,8 +1,8 @@
 {
     "value": {
         "analysisFile": "/mnt/c/Users/Leandro/Documents/Client Server Architecture/Example1/example01/out/foo/compile/dest/zinc",
-        "classes": "ref:33fbd870:/mnt/c/Users/Leandro/Documents/Client Server Architecture/Example1/example01/out/foo/compile/dest/classes"
+        "classes": "ref:295dab99:/mnt/c/Users/Leandro/Documents/Client Server Architecture/Example1/example01/out/foo/compile/dest/classes"
     },
-    "valueHash": 1230728626,
-    "inputsHash": -1015102648
+    "valueHash": -1049083683,
+    "inputsHash": 1712882119
 }
