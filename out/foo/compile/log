@@ -1,4 +1,4 @@
-[0m[[0m[0minfo[0m] [0m[0mCompiling 5 Scala sources to /mnt/c/Users/Leandro/Documents/Client Server Architecture/Example1/example01/out/foo/compile/dest/classes ...[0m
-[0m[[0m[33mwarn[0m] [0m[0m8 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+[0m[[0m[0minfo[0m] [0m[0mCompiling 1 Scala source to /mnt/c/Users/Leandro/Documents/Client Server Architecture/Example1/example01/out/foo/compile/dest/classes ...[0m
+[0m[[0m[33mwarn[0m] [0m[0m7 deprecations (since 2.13.0); re-run with -deprecation for details[0m
 [0m[[0m[33mwarn[0m] [0m[0mone warning found[0m
 [0m[[0m[0minfo[0m] [0m[0mDone compiling.[0m

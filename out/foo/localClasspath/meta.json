@@ -1,8 +1,8 @@
 {
     "value": [
         "ref:c984eca8:/mnt/c/Users/Leandro/Documents/Client Server Architecture/Example1/example01/foo/resources",
-        "ref:0a7315a2:/mnt/c/Users/Leandro/Documents/Client Server Architecture/Example1/example01/out/foo/compile/dest/classes"
+        "ref:33fbd870:/mnt/c/Users/Leandro/Documents/Client Server Architecture/Example1/example01/out/foo/compile/dest/classes"
     ],
-    "valueHash": -43938166,
-    "inputsHash": 1359357960
+    "valueHash": -1722148182,
+    "inputsHash": 1768895917
 }

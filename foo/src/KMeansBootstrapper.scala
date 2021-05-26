@@ -70,7 +70,8 @@ object KMeansBootstrapper{
             }
         }
         else{
-            parallel(recalculateCentroids(l, (r / 2)), recalculateCentroids((r / 2) + 1, r))
+            recalculateCentroids(l, (r / 2))
+            recalculateCentroids((r / 2) + 1, r)
         }
     }
 

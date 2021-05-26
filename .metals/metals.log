@@ -18994,3 +18994,6 @@ WARNING: Unmatched cancel notification for request id 268
 May 26, 2021 7:39:26 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
 WARNING: Unmatched cancel notification for request id 462
 [0m2021.05.26 07:40:01 WARN  no build target for: /mnt/c/Users/Leandro/Documents/Client Server Architecture/Example1/example01/foo/src/KMeans.scala[0m
+May 26, 2021 7:43:16 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 493
+[0m2021.05.26 07:45:35 WARN  no build target for: /mnt/c/Users/Leandro/Documents/Client Server Architecture/Example1/example01/foo/src/KMeansBootstrapper.scala[0m
