@@ -1,6 +1,7 @@
 package foo
 
 import concurrencyCommon._
+import Data._
 
 object KMeansBootstrapper{
     var epsilon = 0.0
@@ -8,17 +9,7 @@ object KMeansBootstrapper{
     var prevSSE: Double = 0.0
 
     //The dataset contains composite arrays of credit risk score, requested amount of credit, and age of users with pending orders
-    var dataset = Array(
-        Array(0.34, 250, 20), Array(0.65, 410, 30), Array(0.26, 310, 41), Array(0.61, 210, 53), Array(0.60, 250, 62),
-        Array(0.44, 250, 41), Array(0.51, 340, 25), Array(0.34, 250, 20), Array(0.65, 410, 30), Array(0.26, 310, 41), Array(0.61, 210, 53), Array(0.60, 250, 62),
-        Array(0.44, 250, 41), Array(0.51, 340, 25), Array(0.34, 250, 20), Array(0.65, 410, 30), Array(0.26, 310, 41), Array(0.61, 210, 53), Array(0.60, 250, 62),
-        Array(0.44, 250, 41), Array(0.51, 340, 25), Array(0.34, 250, 20), Array(0.65, 410, 30), Array(0.26, 310, 41), Array(0.61, 210, 53), Array(0.60, 250, 62),
-        Array(0.44, 250, 41), Array(0.51, 340, 25), Array(0.34, 250, 20), Array(0.65, 410, 30), Array(0.26, 310, 41), Array(0.61, 210, 53), Array(0.60, 250, 62),
-        Array(0.44, 250, 41), Array(0.51, 340, 25), Array(0.34, 250, 20), Array(0.65, 410, 30), Array(0.26, 310, 41), Array(0.61, 210, 53), Array(0.60, 250, 62),
-        Array(0.44, 250, 41), Array(0.51, 340, 25), Array(0.34, 250, 20), Array(0.65, 410, 30), Array(0.26, 310, 41), Array(0.61, 210, 53), Array(0.60, 250, 62),
-        Array(0.44, 250, 41), Array(0.51, 340, 25), Array(0.34, 250, 20), Array(0.65, 410, 30), Array(0.26, 310, 41), Array(0.61, 210, 53), Array(0.60, 250, 62),
-        Array(0.44, 250, 41), Array(0.51, 340, 25)
-    )
+    var dataset: Array[Array[Double]] = readCSV()
     
     //This variable stores the index of the centroid k to which point i is closest
     var groups = new Array[Int](dataset.length)
@@ -37,16 +28,31 @@ object KMeansBootstrapper{
       * For practical purposes, the initial centroids will be assigned manually
       */
     var centroids = Array(
-        Array(0.30, 210, 30),
-        Array(0.45, 300, 45),
-        Array(0.60, 400, 60)
+        Array(41.0, 0.0, 1.0, 130.0, 204.0, 0.0, 0.0, 172.0, 0.0, 1.4, 2.0, 0.0, 2.0, 1.0),
+        Array(44.0, 1.0, 2.0, 140.0,235.0,0.0,0.0,180.0,0.0,0.0,2.0,0.0,2.0,1.0),
+        Array(36.0,1.0,3.0,135.0,250.0,0.0,1.0,187.0,0.0,3.5,0.0,0.0,2.0,1.0),
+        Array(76.0,0.0,2.0,140.0,197.0,0.0,2.0,116.0,0.0,1.1,1.0,0.0,2.0,1.0),
+        Array(56.0,0.0,0.0,200.0,288.0,1.0,0.0,133.0,1.0,4.0,0.0,2.0,3.0,0.0),
+        Array(60.0,1.0,2.0,145.0,264.0,0.0,1.0,132.0,0.0,1.2,1.0,0.0,3.0,0.0),
+        Array(36.0,1.0,3.0,151.0,200.0,0.0,1.0,117.0,0.0,3.0,0.0,0.0,2.0,1.0),
+        Array(65.0,0.0,2.0,140.0,197.0,0.0,2.0,116.0,0.0,1.1,1.0,0.0,2.0,1.0),
+        Array(40.0,0.0,0.0,200.0,288.0,1.0,0.0,133.0,1.0,4.0,0.0,2.0,3.0,0.0),
+        Array(30.0,1.0,3.0,145.0,214.0,0.0,1.0,120.0,0.0,1.2,1.0,0.0,3.0,1.0)
     )
 
     calculateNearestCentroids()
 
+    //Reinitialize centroids, groups and SSE
+    def reinitialize(){
+        groups = new Array[Int](dataset.length)
+        centroids = initCentroids
+        SSE = 0.0
+        prevSSE = 0.0
+    }
+
     //Recalculate the centroids
     def recalculateCentroids(l: Int, r: Int){
-        if(r - l < 20){
+        if(r - l < 5){
             for(i <- l to r){
                 var auxCentroid = Array(0.0, 0.0, 0.0)
                 var counter = 0
@@ -113,7 +119,7 @@ object KMeansBootstrapper{
     //It returns a number between 0 and 1
     def calculateDistance(point: Array[Double], centroid: Array[Double], l: Int, r: Int, minValues: Array[Double], maxValues: Array[Double]): Double = {
         var sum: Double = 0
-        if(r - l < 20){
+        if(r - l < 50){
             for(index <- l to r){
                 var pointIndexValue = normalizeValues(point(index), index, minValues(index), maxValues(index))
                 var centroidIndexValue = normalizeValues(centroid(index), index, minValues(index), maxValues(index))

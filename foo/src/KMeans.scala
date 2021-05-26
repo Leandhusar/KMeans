@@ -2,13 +2,15 @@ package foo
 
 import concurrencyCommon._
 import randomCommon._
+import Data._
 import KMeansBootstrapper._
 
 object KMeans{
   def main(args: Array[String]): Unit = {
     for(iteration <- 0 to 30){
       time(kMeans())
-    }  
+      reinitialize()
+    }
   }
 
   def time[R](block: => R): R = {
