@@ -18997,3 +18997,347 @@ WARNING: Unmatched cancel notification for request id 462
 May 26, 2021 7:43:16 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
 WARNING: Unmatched cancel notification for request id 493
 [0m2021.05.26 07:45:35 WARN  no build target for: /mnt/c/Users/Leandro/Documents/Client Server Architecture/Example1/example01/foo/src/KMeansBootstrapper.scala[0m
+[0m2021.06.17 21:21:45 INFO  Started: Metals version 0.10.4 in workspace '/mnt/c/Users/Leandro/Documents/Client Server Architecture/Example1/example01' for client Visual Studio Code 1.57.0.[0m
+[0m2021.06.17 21:21:53 INFO  time: initialize in 7.54s[0m
+[0m2021.06.17 21:21:53 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher8408955997381104615/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m2021.06.17 21:21:53 WARN  no build target for: /mnt/c/Users/Leandro/Documents/Client Server Architecture/Example1/example01/foo/src/KMeans.scala[0m
+[0m2021.06.17 21:21:54 INFO  skipping build import with status 'Dismissed'[0m
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+error: The command bsp --protocol local --socket /tmp/bsp-launcher8408955997381104615/bsp.socket returned with an error
+> No server running at 127.0.0.1:8212, let's fire one...
+> Resolving ch.epfl.scala:bloop-frontend_2.12:1.4.8-19-4d9f966b...
+> Starting bloop server at 127.0.0.1:8212...
+> Attempting a connection to the server...
+> Attempting a connection to the server...
+> Attempting a connection to the server...
+> Attempting a connection to the server...
+> Attempting a connection to the server...
+> Attempting a connection to the server...
+> Attempting a connection to the server...
+> Attempting a connection to the server...
+> Attempting a connection to the server...
+> Attempting a connection to the server...
+> Attempting a connection to the server...
+> Attempting a connection to the server...
+> Attempting a connection to the server...
+> Attempting a connection to the server...
+> Attempting a connection to the server...
+> Attempting a connection to the server...
+> Attempting a connection to the server...
+> Attempting a connection to the server...
+> Attempting a connection to the server...
+> Attempting a connection to the server...
+> Attempting a connection to the server...
+> Attempting a connection to the server...
+> Attempting a connection to the server...
+> Attempting a connection to the server...
+> Attempting a connection to the server...
+> Attempting a connection to the server...
+> Attempting a connection to the server...
+> Attempting a connection to the server...
+> Attempting a connection to the server...
+> Attempting a connection to the server...
+> Attempting a connection to the server...
+> Attempting a connection to the server...
+> Attempting a connection to the server...
+> Attempting a connection to the server...
+> Attempting a connection to the server...
+> Attempting a connection to the server...
+> Attempting a connection to the server...
+> Attempting a connection to the server...
+> Attempting a connection to the server...
+> Attempting a connection to the server...
+> Attempting a connection to the server...
+> Attempting a connection to the server...
+> Attempting a connection to the server...
+> Attempting a connection to the server...
+> Attempting a connection to the server...
+> Attempting a connection to the server...
+> Attempting a connection to the server...
+> Attempting a connection to the server...
+> Attempting a connection to the server...
+> Attempting a connection to the server...
+> Attempting a connection to the server...
+> Attempting a connection to the server...
+> Attempting a connection to the server...
+> Attempting a connection to the server...
+> Attempting a connection to the server...
+> Attempting a connection to the server...
+> Attempting a connection to the server...
+> Attempting a connection to the server...
+> Attempting a connection to the server...
+> Attempting a connection to the server...
+> [0m[32m[D][0m Loading 2 projects from '/mnt/c/Users/Leandro/Documents/Client Server Architecture/Example1/example01/.bloop'...
+> [0m[32m[D][0m Loading project from '/mnt/c/Users/Leandro/Documents/Client Server Architecture/Example1/example01/.bloop/foo.json'
+> [0m[32m[D][0m Loading project from '/mnt/c/Users/Leandro/Documents/Client Server Architecture/Example1/example01/.bloop/foo.test.json'
+> [0m[33m[W][0m Scala instance jar /Users/ggutierrez/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.2/scala-compiler-2.13.2.jar doesn't exist!
+> [0m[33m[W][0m Scala instance jar /Users/ggutierrez/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.2/scala-compiler-2.13.2.jar doesn't exist!
+> [0m[33m[W][0m Scala instance jar /Users/ggutierrez/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.2/scala-reflect-2.13.2.jar doesn't exist!
+> [0m[33m[W][0m Scala instance jar /Users/ggutierrez/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.3.1/jna-5.3.1.jar doesn't exist!
+> [0m[33m[W][0m Scala instance jar /Users/ggutierrez/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jline/jline/3.14.1/jline-3.14.1.jar doesn't exist!
+> [0m[33m[W][0m Scala instance jar /Users/ggutierrez/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.2/scala-library-2.13.2.jar doesn't exist!
+> [0m[33m[W][0m Scala instance jar /Users/ggutierrez/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.2/scala-reflect-2.13.2.jar doesn't exist!
+> [0m[33m[W][0m Scala instance jar /Users/ggutierrez/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.3.1/jna-5.3.1.jar doesn't exist!
+> [0m[33m[W][0m Scala instance jar /Users/ggutierrez/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jline/jline/3.14.1/jline-3.14.1.jar doesn't exist!
+> [0m[33m[W][0m Scala instance jar /Users/ggutierrez/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.2/scala-library-2.13.2.jar doesn't exist!
+> [0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.13.2.
+> [0m[32m[D][0m   => /Users/ggutierrez/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.3.1/jna-5.3.1.jar
+> [0m[32m[D][0m   => /Users/ggutierrez/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jline/jline/3.14.1/jline-3.14.1.jar
+> [0m[32m[D][0m   => /Users/ggutierrez/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.2/scala-compiler-2.13.2.jar
+> [0m[32m[D][0m   => /Users/ggutierrez/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.2/scala-library-2.13.2.jar
+> [0m[32m[D][0m   => /Users/ggutierrez/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.2/scala-reflect-2.13.2.jar
+> [0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.13.2.
+> [0m[32m[D][0m   => /Users/ggutierrez/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.3.1/jna-5.3.1.jar
+> [0m[32m[D][0m   => /Users/ggutierrez/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jline/jline/3.14.1/jline-3.14.1.jar
+> [0m[32m[D][0m   => /Users/ggutierrez/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.2/scala-compiler-2.13.2.jar
+> [0m[32m[D][0m   => /Users/ggutierrez/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.2/scala-library-2.13.2.jar
+> [0m[32m[D][0m   => /Users/ggutierrez/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.2/scala-reflect-2.13.2.jar
+> bloop.data.Project$ProjectReadException: Failed to load project from /mnt/c/Users/Leandro/Documents/Client Server Architecture/Example1/example01/.bloop/foo.test.json
+> 	at bloop.data.Project$.fromBytesAndOrigin(Project.scala:223)
+> 	at bloop.engine.BuildLoader$.loadProject(BuildLoader.scala:238)
+> 	at bloop.engine.BuildLoader$.$anonfun$loadBuildIncrementally$3(BuildLoader.scala:57)
+> 	at monix.eval.internal.TaskRunLoop$.monix$eval$internal$TaskRunLoop$$loop$1(TaskRunLoop.scala:187)
+> 	at monix.eval.internal.TaskRunLoop$RestartCallback$1.onSuccess(TaskRunLoop.scala:119)
+> 	at monix.eval.Task$.$anonfun$forkedUnit$2(Task.scala:1463)
+> 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+> 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+> 	at java.base/java.lang.Thread.run(Thread.java:829)
+> Caused by: java.nio.file.NoSuchFileException: /Users/ggutierrez/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.2/scala-compiler-2.13.2.jar
+> 	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+> 	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+> 	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:116)
+> 	at java.base/sun.nio.fs.UnixFileAttributeViews$Basic.readAttributes(UnixFileAttributeViews.java:55)
+> 	at java.base/sun.nio.fs.UnixFileSystemProvider.readAttributes(UnixFileSystemProvider.java:149)
+> 	at java.base/sun.nio.fs.LinuxFileSystemProvider.readAttributes(LinuxFileSystemProvider.java:99)
+> 	at java.base/java.nio.file.Files.readAttributes(Files.java:1764)
+> 	at bloop.ScalaInstance.$anonfun$hashCode$1(ScalaInstance.scala:82)
+> 	at scala.collection.TraversableLike.$anonfun$map$1(TraversableLike.scala:285)
+> 	at scala.collection.IndexedSeqOptimized.foreach(IndexedSeqOptimized.scala:36)
+> 	at scala.collection.IndexedSeqOptimized.foreach$(IndexedSeqOptimized.scala:33)
+> 	at scala.collection.mutable.WrappedArray.foreach(WrappedArray.scala:38)
+> 	at scala.collection.TraversableLike.map(TraversableLike.scala:285)
+> 	at scala.collection.TraversableLike.map$(TraversableLike.scala:278)
+> 	at scala.collection.AbstractTraversable.map(Traversable.scala:108)
+> 	at bloop.ScalaInstance.<init>(ScalaInstance.scala:78)
+> 	at bloop.ScalaInstance$.newInstance$1(ScalaInstance.scala:152)
+> 	at bloop.ScalaInstance$.$anonfun$apply$7(ScalaInstance.scala:157)
+> 	at java.base/java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1705)
+> 	at bloop.ScalaInstance$.apply(ScalaInstance.scala:157)
+> 	at bloop.data.Project$.$anonfun$fromConfig$1(Project.scala:240)
+> 	at scala.Option.flatMap(Option.scala:271)
+> 	at bloop.data.Project$.fromConfig(Project.scala:235)
+> 	at bloop.data.Project$.fromBytesAndOrigin(Project.scala:217)
+> 	... 8 more
+> [0m[32m[D][0m Elapsed: 962.3782 ms
+> [0m[31m[E][0m Failed to load project from /mnt/c/Users/Leandro/Documents/Client Server Architecture/Example1/example01/.bloop/foo.json
+> [0m[36m[T][0m bloop.data.Project$ProjectReadException: Failed to load project from /mnt/c/Users/Leandro/Documents/Client Server Architecture/Example1/example01/.bloop/foo.json
+> [0m[36m[T][0m 	bloop.data.Project$.fromBytesAndOrigin(Project.scala:223)
+> [0m[36m[T][0m 	bloop.engine.BuildLoader$.loadProject(BuildLoader.scala:238)
+> [0m[36m[T][0m 	bloop.engine.BuildLoader$.$anonfun$loadBuildIncrementally$3(BuildLoader.scala:57)
+> [0m[36m[T][0m 	monix.eval.internal.TaskRunLoop$.monix$eval$internal$TaskRunLoop$$loop$1(TaskRunLoop.scala:187)
+> [0m[36m[T][0m 	monix.eval.internal.TaskRunLoop$RestartCallback$1.onSuccess(TaskRunLoop.scala:119)
+> [0m[36m[T][0m 	monix.eval.Task$.$anonfun$forkedUnit$2(Task.scala:1463)
+> [0m[36m[T][0m 	java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+> [0m[36m[T][0m 	java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+> [0m[36m[T][0m 	java.base/java.lang.Thread.run(Thread.java:829)
+> [0m[36m[T][0m Caused by: java.nio.file.NoSuchFileException: /Users/ggutierrez/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.2/scala-compiler-2.13.2.jar
+> [0m[36m[T][0m 	java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+> [0m[36m[T][0m 	java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+> [0m[36m[T][0m 	java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:116)
+> [0m[36m[T][0m 	java.base/sun.nio.fs.UnixFileAttributeViews$Basic.readAttributes(UnixFileAttributeViews.java:55)
+> [0m[36m[T][0m 	java.base/sun.nio.fs.UnixFileSystemProvider.readAttributes(UnixFileSystemProvider.java:149)
+> [0m[36m[T][0m 	java.base/sun.nio.fs.LinuxFileSystemProvider.readAttributes(LinuxFileSystemProvider.java:99)
+> [0m[36m[T][0m 	java.base/java.nio.file.Files.readAttributes(Files.java:1764)
+> [0m[36m[T][0m 	bloop.ScalaInstance.$anonfun$hashCode$1(ScalaInstance.scala:82)
+> [0m[36m[T][0m 	scala.collection.TraversableLike.$anonfun$map$1(TraversableLike.scala:285)
+> [0m[36m[T][0m 	scala.collection.IndexedSeqOptimized.foreach(IndexedSeqOptimized.scala:36)
+> [0m[36m[T][0m 	scala.collection.IndexedSeqOptimized.foreach$(IndexedSeqOptimized.scala:33)
+> [0m[36m[T][0m 	scala.collection.mutable.WrappedArray.foreach(WrappedArray.scala:38)
+> [0m[36m[T][0m 	scala.collection.TraversableLike.map(TraversableLike.scala:285)
+> [0m[36m[T][0m 	scala.collection.TraversableLike.map$(TraversableLike.scala:278)
+> [0m[36m[T][0m 	scala.collection.AbstractTraversable.map(Traversable.scala:108)
+> [0m[36m[T][0m 	bloop.ScalaInstance.<init>(ScalaInstance.scala:78)
+> [0m[36m[T][0m 	bloop.ScalaInstance$.newInstance$1(ScalaInstance.scala:152)
+> [0m[36m[T][0m 	bloop.ScalaInstance$.$anonfun$apply$7(ScalaInstance.scala:157)
+> [0m[36m[T][0m 	java.base/java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1705)
+> [0m[36m[T][0m 	bloop.ScalaInstance$.apply(ScalaInstance.scala:157)
+> [0m[36m[T][0m 	bloop.data.Project$.$anonfun$fromConfig$1(Project.scala:240)
+> [0m[36m[T][0m 	scala.Option.flatMap(Option.scala:271)
+> [0m[36m[T][0m 	bloop.data.Project$.fromConfig(Project.scala:235)
+> [0m[36m[T][0m 	bloop.data.Project$.fromBytesAndOrigin(Project.scala:217)
+> [0m[36m[T][0m 	bloop.engine.BuildLoader$.loadProject(BuildLoader.scala:238)
+> [0m[36m[T][0m 	bloop.engine.BuildLoader$.$anonfun$loadBuildIncrementally$3(BuildLoader.scala:57)
+> [0m[36m[T][0m 	monix.eval.internal.TaskRunLoop$.monix$eval$internal$TaskRunLoop$$loop$1(TaskRunLoop.scala:187)
+> [0m[36m[T][0m 	monix.eval.internal.TaskRunLoop$RestartCallback$1.onSuccess(TaskRunLoop.scala:119)
+> [0m[36m[T][0m 	monix.eval.Task$.$anonfun$forkedUnit$2(Task.scala:1463)
+> [0m[36m[T][0m 	java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+> [0m[36m[T][0m 	java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+> [0m[36m[T][0m 	java.base/java.lang.Thread.run(Thread.java:829)
+error: Trying a tcp-based connection to the server instead...
+Opening a bsp server connection with 'bsp --protocol tcp --port 18493'...
+Waiting for the bsp connection to come up...
+error: The command bsp --protocol tcp --port 18493 returned with an error
+> [0m[32m[D][0m Loading 2 projects from '/mnt/c/Users/Leandro/Documents/Client Server Architecture/Example1/example01/.bloop'...
+> [0m[32m[D][0m Loading project from '/mnt/c/Users/Leandro/Documents/Client Server Architecture/Example1/example01/.bloop/foo.test.json'
+> [0m[32m[D][0m Loading project from '/mnt/c/Users/Leandro/Documents/Client Server Architecture/Example1/example01/.bloop/foo.json'
+> [0m[33m[W][0m Scala instance jar /Users/ggutierrez/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.2/scala-compiler-2.13.2.jar doesn't exist!
+> [0m[33m[W][0m Scala instance jar /Users/ggutierrez/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.2/scala-reflect-2.13.2.jar doesn't exist!
+> [0m[33m[W][0m Scala instance jar /Users/ggutierrez/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.3.1/jna-5.3.1.jar doesn't exist!
+> [0m[33m[W][0m Scala instance jar /Users/ggutierrez/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.2/scala-compiler-2.13.2.jar doesn't exist!
+> [0m[33m[W][0m Scala instance jar /Users/ggutierrez/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jline/jline/3.14.1/jline-3.14.1.jar doesn't exist!
+> [0m[33m[W][0m Scala instance jar /Users/ggutierrez/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.2/scala-reflect-2.13.2.jar doesn't exist!
+> [0m[33m[W][0m Scala instance jar /Users/ggutierrez/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.2/scala-library-2.13.2.jar doesn't exist!
+> [0m[33m[W][0m Scala instance jar /Users/ggutierrez/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.3.1/jna-5.3.1.jar doesn't exist!
+> [0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.13.2.[0m[33m[W][0m Scala instance jar /Users/ggutierrez/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jline/jline/3.14.1/jline-3.14.1.jar doesn't exist!
+> 
+> [0m[33m[W][0m Scala instance jar /Users/ggutierrez/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.2/scala-library-2.13.2.jar doesn't exist![0m[32m[D][0m   => /Users/ggutierrez/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.3.1/jna-5.3.1.jar
+> 
+> [0m[32m[D][0m   => /Users/ggutierrez/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jline/jline/3.14.1/jline-3.14.1.jar
+> [0m[32m[D][0m   => /Users/ggutierrez/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.2/scala-compiler-2.13.2.jar
+> [0m[32m[D][0m   => /Users/ggutierrez/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.2/scala-library-2.13.2.jar
+> [0m[32m[D][0m   => /Users/ggutierrez/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.2/scala-reflect-2.13.2.jar
+> [0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.13.2.
+> [0m[32m[D][0m   => /Users/ggutierrez/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.3.1/jna-5.3.1.jar
+> [0m[32m[D][0m   => /Users/ggutierrez/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jline/jline/3.14.1/jline-3.14.1.jar
+> [0m[32m[D][0m Elapsed: 13.0395 ms
+> [0m[31m[E][0m Failed to load project from /mnt/c/Users/Leandro/Documents/Client Server Architecture/Example1/example01/.bloop/foo.json
+> [0m[36m[T][0m bloop.data.Project$ProjectReadException: Failed to load project from /mnt/c/Users/Leandro/Documents/Client Server Architecture/Example1/example01/.bloop/foo.json
+> [0m[32m[D][0m   => /Users/ggutierrez/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.2/scala-compiler-2.13.2.jar
+> [0m[36m[T][0m 	bloop.data.Project$.fromBytesAndOrigin(Project.scala:223)
+> [0m[36m[T][0m 	bloop.engine.BuildLoader$.loadProject(BuildLoader.scala:238)
+> [0m[36m[T][0m 	bloop.engine.BuildLoader$.$anonfun$loadBuildIncrementally$3(BuildLoader.scala:57)
+> [0m[36m[T][0m 	monix.eval.internal.TaskRunLoop$.monix$eval$internal$TaskRunLoop$$loop$1(TaskRunLoop.scala:187)
+> [0m[32m[D][0m   => /Users/ggutierrez/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.2/scala-library-2.13.2.jar
+> [0m[36m[T][0m 	monix.eval.internal.TaskRunLoop$RestartCallback$1.onSuccess(TaskRunLoop.scala:119)
+> [0m[36m[T][0m 	monix.eval.Task$.$anonfun$forkedUnit$2(Task.scala:1463)
+> [0m[36m[T][0m 	java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+> [0m[36m[T][0m 	java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+> [0m[36m[T][0m 	java.base/java.lang.Thread.run(Thread.java:829)
+> [0m[36m[T][0m Caused by: java.nio.file.NoSuchFileException: /Users/ggutierrez/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.2/scala-compiler-2.13.2.jar
+> [0m[32m[D][0m   => /Users/ggutierrez/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.2/scala-reflect-2.13.2.jar
+> [0m[36m[T][0m 	java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+> [0m[36m[T][0m 	java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+> [0m[36m[T][0m 	java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:116)
+> [0m[36m[T][0m 	java.base/sun.nio.fs.UnixFileAttributeViews$Basic.readAttributes(UnixFileAttributeViews.java:55)
+> [0m[36m[T][0m 	java.base/sun.nio.fs.UnixFileSystemProvider.readAttributes(UnixFileSystemProvider.java:149)
+> [0m[36m[T][0m 	java.base/sun.nio.fs.LinuxFileSystemProvider.readAttributes(LinuxFileSystemProvider.java:99)
+> [0m[36m[T][0m 	java.base/java.nio.file.Files.readAttributes(Files.java:1764)
+> [0m[36m[T][0m 	bloop.ScalaInstance.$anonfun$hashCode$1(ScalaInstance.scala:82)
+> [0m[36m[T][0m 	scala.collection.TraversableLike.$anonfun$map$1(TraversableLike.scala:285)
+> [0m[36m[T][0m 	scala.collection.IndexedSeqOptimized.foreach(IndexedSeqOptimized.scala:36)
+> [0m[36m[T][0m 	scala.collection.IndexedSeqOptimized.foreach$(IndexedSeqOptimized.scala:33)
+> [0m[36m[T][0m 	scala.collection.mutable.WrappedArray.foreach(WrappedArray.scala:38)
+> [0m[36m[T][0m 	scala.collection.TraversableLike.map(TraversableLike.scala:285)
+> [0m[36m[T][0m 	scala.collection.TraversableLike.map$(TraversableLike.scala:278)
+> [0m[36m[T][0m 	scala.collection.AbstractTraversable.map(Traversable.scala:108)
+> [0m[36m[T][0m 	bloop.ScalaInstance.<init>(ScalaInstance.scala:78)
+> [0m[36m[T][0m 	bloop.ScalaInstance$.newInstance$1(ScalaInstance.scala:152)
+> [0m[36m[T][0m 	bloop.ScalaInstance$.$anonfun$apply$7(ScalaInstance.scala:157)
+> [0m[36m[T][0m 	java.base/java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1705)
+> [0m[36m[T][0m 	bloop.ScalaInstance$.apply(ScalaInstance.scala:157)
+> [0m[36m[T][0m 	bloop.data.Project$.$anonfun$fromConfig$1(Project.scala:240)
+> [0m[36m[T][0m 	scala.Option.flatMap(Option.scala:271)
+> [0m[36m[T][0m 	bloop.data.Project$.fromConfig(Project.scala:235)
+> [0m[36m[T][0m 	bloop.data.Project$.fromBytesAndOrigin(Project.scala:217)
+> [0m[36m[T][0m 	bloop.engine.BuildLoader$.loadProject(BuildLoader.scala:238)
+> [0m[36m[T][0m 	bloop.engine.BuildLoader$.$anonfun$loadBuildIncrementally$3(BuildLoader.scala:57)
+> [0m[36m[T][0m 	monix.eval.internal.TaskRunLoop$.monix$eval$internal$TaskRunLoop$$loop$1(TaskRunLoop.scala:187)
+> [0m[36m[T][0m 	monix.eval.internal.TaskRunLoop$RestartCallback$1.onSuccess(TaskRunLoop.scala:119)
+> [0m[36m[T][0m 	monix.eval.Task$.$anonfun$forkedUnit$2(Task.scala:1463)
+> [0m[36m[T][0m 	java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+> [0m[36m[T][0m 	java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+> [0m[36m[T][0m 	java.base/java.lang.Thread.run(Thread.java:829)
+error: The launcher failed to establish a bsp connection, aborting...
+[0m2021.06.17 21:22:13 ERROR Failed to connect with build server, no functionality will work.
+java.lang.RuntimeException: The server did not start, got FailedToOpenBspConnection
+	at bloop.launcher.LauncherMain.failPromise$1(Launcher.scala:95)
+	at bloop.launcher.LauncherMain.runLauncher(Launcher.scala:122)
+	at scala.meta.internal.metals.BloopServers$$anon$1.run(BloopServers.scala:159)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:829)
+[0m
+[0m2021.06.17 21:22:14 INFO  no build target: using presentation compiler with only scala-library: 2.12.14[0m
+[0m2021.06.17 21:22:18 INFO  time: code lens generation in 23s[0m
+[0m2021.06.17 21:23:59 WARN  no build target for: /mnt/c/Users/Leandro/Documents/Client Server Architecture/Example1/example01/foo/src/Data.scala[0m
+Jun 17, 2021 9:24:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10
+Jun 17, 2021 9:24:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 12
+Jun 17, 2021 9:24:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 13
+[0m2021.06.17 21:24:12 WARN  no build target for: /mnt/c/Users/Leandro/Documents/Client Server Architecture/Example1/example01/foo/src/KMeansBootstrapper.scala[0m
+Jun 17, 2021 9:24:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 19
+Jun 17, 2021 9:24:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 18
+[0m2021.06.17 21:24:14 INFO  time: code lens generation in 1.03s[0m
+Jun 17, 2021 9:31:09 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Jun 17, 2021 9:31:09 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Jun 17, 2021 9:31:09 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Jun 17, 2021 9:31:10 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Jun 17, 2021 9:31:10 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Jun 17, 2021 9:48:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 74
+[0m2021.06.17 21:49:14 WARN  no build target for: /mnt/c/Users/Leandro/Documents/Client Server Architecture/Example1/example01/foo/src/KMeansBootstrapper.scala[0m
+Jun 17, 2021 9:52:39 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 226
+[0m2021.06.17 21:53:22 WARN  no build target for: /mnt/c/Users/Leandro/Documents/Client Server Architecture/Example1/example01/foo/src/KMeansBootstrapper.scala[0m
+something's wrong: no file:///mnt/c/Users/Leandro/Documents/Client%20Server%20Architecture/Example1/example01/foo/src/KMeansBootstrapper.scala in Array[<error>]RangePosition(file:///mnt/c/Users/Leandro/Documents/Client%20Server%20Architecture/Example1/example01/foo/src/KMeansBootstrapper.scala, 5311, 5311, 5318)
+something's wrong: no file:///mnt/c/Users/Leandro/Documents/Client%20Server%20Architecture/Example1/example01/foo/src/KMeansBootstrapper.scala in Array[<error>]RangePosition(file:///mnt/c/Users/Leandro/Documents/Client%20Server%20Architecture/Example1/example01/foo/src/KMeansBootstrapper.scala, 5311, 5311, 5326)
+something's wrong: no file:///mnt/c/Users/Leandro/Documents/Client%20Server%20Architecture/Example1/example01/foo/src/KMeansBootstrapper.scala in Array[<error>]RangePosition(file:///mnt/c/Users/Leandro/Documents/Client%20Server%20Architecture/Example1/example01/foo/src/KMeansBootstrapper.scala, 5311, 5311, 5319)
+something's wrong: no file:///mnt/c/Users/Leandro/Documents/Client%20Server%20Architecture/Example1/example01/foo/src/KMeansBootstrapper.scala in Array[<error>]RangePosition(file:///mnt/c/Users/Leandro/Documents/Client%20Server%20Architecture/Example1/example01/foo/src/KMeansBootstrapper.scala, 5311, 5311, 5328)
+something's wrong: no file:///mnt/c/Users/Leandro/Documents/Client%20Server%20Architecture/Example1/example01/foo/src/KMeansBootstrapper.scala in Array[<error>]RangePosition(file:///mnt/c/Users/Leandro/Documents/Client%20Server%20Architecture/Example1/example01/foo/src/KMeansBootstrapper.scala, 5311, 5311, 5327)
+something's wrong: no file:///mnt/c/Users/Leandro/Documents/Client%20Server%20Architecture/Example1/example01/foo/src/KMeansBootstrapper.scala in Array[<error>]RangePosition(file:///mnt/c/Users/Leandro/Documents/Client%20Server%20Architecture/Example1/example01/foo/src/KMeansBootstrapper.scala, 5311, 5311, 5326)
+something's wrong: no file:///mnt/c/Users/Leandro/Documents/Client%20Server%20Architecture/Example1/example01/foo/src/KMeansBootstrapper.scala in Array[<error>]RangePosition(file:///mnt/c/Users/Leandro/Documents/Client%20Server%20Architecture/Example1/example01/foo/src/KMeansBootstrapper.scala, 5311, 5311, 5325)
+something's wrong: no file:///mnt/c/Users/Leandro/Documents/Client%20Server%20Architecture/Example1/example01/foo/src/KMeansBootstrapper.scala in Array[<error>]RangePosition(file:///mnt/c/Users/Leandro/Documents/Client%20Server%20Architecture/Example1/example01/foo/src/KMeansBootstrapper.scala, 5311, 5311, 5324)
+something's wrong: no file:///mnt/c/Users/Leandro/Documents/Client%20Server%20Architecture/Example1/example01/foo/src/KMeansBootstrapper.scala in Array[<error>]RangePosition(file:///mnt/c/Users/Leandro/Documents/Client%20Server%20Architecture/Example1/example01/foo/src/KMeansBootstrapper.scala, 5311, 5311, 5323)
+something's wrong: no file:///mnt/c/Users/Leandro/Documents/Client%20Server%20Architecture/Example1/example01/foo/src/KMeansBootstrapper.scala in Array[<error>]RangePosition(file:///mnt/c/Users/Leandro/Documents/Client%20Server%20Architecture/Example1/example01/foo/src/KMeansBootstrapper.scala, 5311, 5311, 5322)
+something's wrong: no file:///mnt/c/Users/Leandro/Documents/Client%20Server%20Architecture/Example1/example01/foo/src/KMeansBootstrapper.scala in Array[<error>]RangePosition(file:///mnt/c/Users/Leandro/Documents/Client%20Server%20Architecture/Example1/example01/foo/src/KMeansBootstrapper.scala, 5311, 5311, 5321)
+something's wrong: no file:///mnt/c/Users/Leandro/Documents/Client%20Server%20Architecture/Example1/example01/foo/src/KMeansBootstrapper.scala in Array[<error>]RangePosition(file:///mnt/c/Users/Leandro/Documents/Client%20Server%20Architecture/Example1/example01/foo/src/KMeansBootstrapper.scala, 5311, 5311, 5321)
+something's wrong: no file:///mnt/c/Users/Leandro/Documents/Client%20Server%20Architecture/Example1/example01/foo/src/KMeansBootstrapper.scala in Array[<error>]RangePosition(file:///mnt/c/Users/Leandro/Documents/Client%20Server%20Architecture/Example1/example01/foo/src/KMeansBootstrapper.scala, 5311, 5311, 5320)
+something's wrong: no file:///mnt/c/Users/Leandro/Documents/Client%20Server%20Architecture/Example1/example01/foo/src/KMeansBootstrapper.scala in Array[<error>]RangePosition(file:///mnt/c/Users/Leandro/Documents/Client%20Server%20Architecture/Example1/example01/foo/src/KMeansBootstrapper.scala, 5311, 5311, 5321)
+something's wrong: no file:///mnt/c/Users/Leandro/Documents/Client%20Server%20Architecture/Example1/example01/foo/src/KMeansBootstrapper.scala in Array[Int]RangePosition(file:///mnt/c/Users/Leandro/Documents/Client%20Server%20Architecture/Example1/example01/foo/src/KMeansBootstrapper.scala, 5311, 5311, 5321)
+something's wrong: no file:///mnt/c/Users/Leandro/Documents/Client%20Server%20Architecture/Example1/example01/foo/src/KMeansBootstrapper.scala in Array[Int]RangePosition(file:///mnt/c/Users/Leandro/Documents/Client%20Server%20Architecture/Example1/example01/foo/src/KMeansBootstrapper.scala, 5311, 5311, 5321)
+something's wrong: no file:///mnt/c/Users/Leandro/Documents/Client%20Server%20Architecture/Example1/example01/foo/src/KMeansBootstrapper.scala in Array[Int]RangePosition(file:///mnt/c/Users/Leandro/Documents/Client%20Server%20Architecture/Example1/example01/foo/src/KMeansBootstrapper.scala, 5311, 5311, 5321)
+Jun 17, 2021 10:04:47 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+[0m2021.06.17 22:05:58 WARN  no build target for: /mnt/c/Users/Leandro/Documents/Client Server Architecture/Example1/example01/foo/src/KMeansBootstrapper.scala[0m
+something's wrong: no file:///mnt/c/Users/Leandro/Documents/Client%20Server%20Architecture/Example1/example01/foo/src/KMeansBootstrapper.scala in Array[<error>]RangePosition(file:///mnt/c/Users/Leandro/Documents/Client%20Server%20Architecture/Example1/example01/foo/src/KMeansBootstrapper.scala, 4026, 4026, 4041)
+something's wrong: no file:///mnt/c/Users/Leandro/Documents/Client%20Server%20Architecture/Example1/example01/foo/src/KMeansBootstrapper.scala in Array[<error>]RangePosition(file:///mnt/c/Users/Leandro/Documents/Client%20Server%20Architecture/Example1/example01/foo/src/KMeansBootstrapper.scala, 4026, 4026, 4034)
+something's wrong: no file:///mnt/c/Users/Leandro/Documents/Client%20Server%20Architecture/Example1/example01/foo/src/KMeansBootstrapper.scala in Array[<error>]RangePosition(file:///mnt/c/Users/Leandro/Documents/Client%20Server%20Architecture/Example1/example01/foo/src/KMeansBootstrapper.scala, 4026, 4026, 4035)
+something's wrong: no file:///mnt/c/Users/Leandro/Documents/Client%20Server%20Architecture/Example1/example01/foo/src/KMeansBootstrapper.scala in Array[Int]RangePosition(file:///mnt/c/Users/Leandro/Documents/Client%20Server%20Architecture/Example1/example01/foo/src/KMeansBootstrapper.scala, 4026, 4026, 4036)
+something's wrong: no file:///mnt/c/Users/Leandro/Documents/Client%20Server%20Architecture/Example1/example01/foo/src/KMeansBootstrapper.scala in Array[Int]RangePosition(file:///mnt/c/Users/Leandro/Documents/Client%20Server%20Architecture/Example1/example01/foo/src/KMeansBootstrapper.scala, 4026, 4026, 4036)
+something's wrong: no file:///mnt/c/Users/Leandro/Documents/Client%20Server%20Architecture/Example1/example01/foo/src/KMeansBootstrapper.scala in Array[Int]RangePosition(file:///mnt/c/Users/Leandro/Documents/Client%20Server%20Architecture/Example1/example01/foo/src/KMeansBootstrapper.scala, 4026, 4026, 4036)
+something's wrong: no file:///mnt/c/Users/Leandro/Documents/Client%20Server%20Architecture/Example1/example01/foo/src/KMeansBootstrapper.scala in Array[Int]RangePosition(file:///mnt/c/Users/Leandro/Documents/Client%20Server%20Architecture/Example1/example01/foo/src/KMeansBootstrapper.scala, 4026, 4026, 4036)
+Jun 17, 2021 10:09:08 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+something's wrong: no file:///mnt/c/Users/Leandro/Documents/Client%20Server%20Architecture/Example1/example01/foo/src/KMeansBootstrapper.scala in Array[Int]RangePosition(file:///mnt/c/Users/Leandro/Documents/Client%20Server%20Architecture/Example1/example01/foo/src/KMeansBootstrapper.scala, 4026, 4026, 4036)
+[0m2021.06.17 22:09:42 WARN  no build target for: /mnt/c/Users/Leandro/Documents/Client Server Architecture/Example1/example01/foo/src/KMeansBootstrapper.scala[0m
+[0m2021.06.17 22:10:04 WARN  no build target for: /mnt/c/Users/Leandro/Documents/Client Server Architecture/Example1/example01/foo/src/KMeansBootstrapper.scala[0m
+something's wrong: no file:///mnt/c/Users/Leandro/Documents/Client%20Server%20Architecture/Example1/example01/foo/src/KMeansBootstrapper.scala in Array[<error>]RangePosition(file:///mnt/c/Users/Leandro/Documents/Client%20Server%20Architecture/Example1/example01/foo/src/KMeansBootstrapper.scala, 4623, 4623, 4638)
+something's wrong: no file:///mnt/c/Users/Leandro/Documents/Client%20Server%20Architecture/Example1/example01/foo/src/KMeansBootstrapper.scala in Array[<error>]RangePosition(file:///mnt/c/Users/Leandro/Documents/Client%20Server%20Architecture/Example1/example01/foo/src/KMeansBootstrapper.scala, 4623, 4623, 4631)
+something's wrong: no file:///mnt/c/Users/Leandro/Documents/Client%20Server%20Architecture/Example1/example01/foo/src/KMeansBootstrapper.scala in Array[Int]RangePosition(file:///mnt/c/Users/Leandro/Documents/Client%20Server%20Architecture/Example1/example01/foo/src/KMeansBootstrapper.scala, 4623, 4623, 4633)
+something's wrong: no file:///mnt/c/Users/Leandro/Documents/Client%20Server%20Architecture/Example1/example01/foo/src/KMeansBootstrapper.scala in Array[Int]RangePosition(file:///mnt/c/Users/Leandro/Documents/Client%20Server%20Architecture/Example1/example01/foo/src/KMeansBootstrapper.scala, 4623, 4623, 4633)
+something's wrong: no file:///mnt/c/Users/Leandro/Documents/Client%20Server%20Architecture/Example1/example01/foo/src/KMeansBootstrapper.scala in Array[Int]RangePosition(file:///mnt/c/Users/Leandro/Documents/Client%20Server%20Architecture/Example1/example01/foo/src/KMeansBootstrapper.scala, 4623, 4623, 4633)
+[0m2021.06.17 22:12:32 WARN  no build target for: /mnt/c/Users/Leandro/Documents/Client Server Architecture/Example1/example01/foo/src/KMeansBootstrapper.scala[0m
+[0m2021.06.17 22:12:51 WARN  no build target for: /mnt/c/Users/Leandro/Documents/Client Server Architecture/Example1/example01/foo/src/KMeansBootstrapper.scala[0m

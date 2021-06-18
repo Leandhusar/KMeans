@@ -78,28 +78,39 @@ object KMeansBootstrapper{
 
     def calculateNewSSE(): Double = {
         var counter = 0.0
-        for(centroid <- centroids){
+        /*for(centroid <- centroids){
             for(point <- dataset){
                 counter += calculateDistance(point, centroid, 0, point.length - 1, minData, maxData)
             }
-        }
+        }*/
+        centroids.map(
+            centroid => dataset.map(
+                point => counter += calculateDistance(point, centroid, 0, point.length - 1, minData, maxData)
+            )
+        )
         counter
     }
 
     def calculateNearestCentroids(l: Int, r: Int){
         if((r - l) < 1000){
-            for(i <- l to r){
-                var nearestCentroid: Int = 0
-                var auxDistance: Double = 123456789.00
-                for(k <- 0 to (centroids.length - 1)){
-                    var aux = calculateDistance(dataset(i), centroids(k), 0, dataset(i).length-1, minData, maxData)
-                    if(aux < auxDistance){
-                        auxDistance = aux
-                        nearestCentroid = k
-                    }
+            var indexes: Array[Int] = Array.range(l, r + 1)
+            indexes.map(
+                i => {
+                    var nearestCentroid: Int = 0
+                    var auxDistance: Double = 123456789.00
+                    var kindexes: Array[Int] = Array.range(0, centroids.length)
+                    kindexes.map(
+                        k => {
+                            var aux = calculateDistance(dataset(i), centroids(k), 0, dataset(i).length-1, minData, maxData)
+                            if(aux < auxDistance){
+                                auxDistance = aux
+                                nearestCentroid = k
+                            }
+                        }
+                    )
+                    groups(i) = nearestCentroid
                 }
-                groups(i) = nearestCentroid
-            }
+            )
         }
         else{
             calculateNearestCentroids(l, l + ((r - l) / 2))
@@ -128,11 +139,14 @@ object KMeansBootstrapper{
     def calculateDistance(point: Array[Double], centroid: Array[Double], l: Int, r: Int, minValues: Array[Double], maxValues: Array[Double]): Double = {
         var sum: Double = 0
         if(r - l < 50){
-            for(index <- l to r){
-                var pointIndexValue = normalizeValues(point(index), index, minValues(index), maxValues(index))
-                var centroidIndexValue = normalizeValues(centroid(index), index, minValues(index), maxValues(index))
-                sum += (pointIndexValue - centroidIndexValue) * (pointIndexValue - centroidIndexValue)
-            }
+            var indexes: Array[Int] = Array.range(l, r + 1)
+            indexes.map(
+                index => {
+                    var pointIndexValue = normalizeValues(point(index), index, minValues(index), maxValues(index))
+                    var centroidIndexValue = normalizeValues(centroid(index), index, minValues(index), maxValues(index))
+                    sum += (pointIndexValue - centroidIndexValue) * (pointIndexValue - centroidIndexValue)
+                }
+            )
             sum
         }
         else{

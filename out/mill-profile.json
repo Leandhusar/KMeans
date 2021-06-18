@@ -1,22 +1,22 @@
 [
     {
         "label": "foo.mainClass",
-        "millis": 43,
+        "millis": 15,
         "cached": true
     },
     {
         "label": "mill.scalalib.ZincWorkerModule.compilerInterfaceClasspath",
-        "millis": 16,
+        "millis": 4,
         "cached": true
     },
     {
         "label": "mill.scalalib.ZincWorkerModule.classpath",
-        "millis": 19,
+        "millis": 8,
         "cached": true
     },
     {
         "label": "mill.scalalib.ZincWorkerModule.worker",
-        "millis": 675,
+        "millis": 142,
         "cached": false
     },
     {
@@ -26,22 +26,22 @@
     },
     {
         "label": "foo.sources",
-        "millis": 196,
+        "millis": 66,
         "cached": false
     },
     {
         "label": "foo.generatedSources",
-        "millis": 1,
+        "millis": 2,
         "cached": true
     },
     {
         "label": "foo.allSources",
-        "millis": 1,
+        "millis": 2,
         "cached": true
     },
     {
         "label": "foo.allSourceFiles",
-        "millis": 10,
+        "millis": 2,
         "cached": true
     },
     {
@@ -51,12 +51,12 @@
     },
     {
         "label": "foo.resources",
-        "millis": 15,
+        "millis": 40,
         "cached": false
     },
     {
         "label": "foo.unmanagedClasspath",
-        "millis": 0,
+        "millis": 1,
         "cached": true
     },
     {
@@ -81,22 +81,22 @@
     },
     {
         "label": "foo.scalaLibraryIvyDeps",
-        "millis": 207,
+        "millis": 31,
         "cached": true
     },
     {
         "label": "foo.ivyDeps",
-        "millis": 11,
+        "millis": 1,
         "cached": true
     },
     {
         "label": "foo.transitiveIvyDeps",
-        "millis": 9,
+        "millis": 1,
         "cached": true
     },
     {
         "label": "foo.compileClasspath",
-        "millis": 9,
+        "millis": 1,
         "cached": true
     },
     {
@@ -111,27 +111,27 @@
     },
     {
         "label": "foo.scalaCompilerClasspath",
-        "millis": 5,
+        "millis": 2,
         "cached": true
     },
     {
         "label": "foo.scalacPluginIvyDeps",
-        "millis": 1,
+        "millis": 0,
         "cached": true
     },
     {
         "label": "foo.scalacPluginClasspath",
-        "millis": 1,
+        "millis": 2,
         "cached": true
     },
     {
         "label": "foo.compile",
-        "millis": 13,
+        "millis": 2,
         "cached": true
     },
     {
         "label": "foo.finalMainClassOpt",
-        "millis": 2,
+        "millis": 1,
         "cached": true
     },
     {
@@ -151,32 +151,32 @@
     },
     {
         "label": "foo.upstreamAssemblyClasspath",
-        "millis": 12,
+        "millis": 1,
         "cached": true
     },
     {
         "label": "foo.runClasspath",
-        "millis": 2,
-        "cached": true
-    },
-    {
-        "label": "foo.forkArgs",
         "millis": 0,
         "cached": true
     },
     {
+        "label": "foo.forkArgs",
+        "millis": 1,
+        "cached": true
+    },
+    {
         "label": "foo.forkEnv",
-        "millis": 30,
+        "millis": 2,
         "cached": true
     },
     {
         "label": "foo.forkWorkingDir",
-        "millis": 7,
+        "millis": 1,
         "cached": true
     },
     {
         "label": "foo.run",
-        "millis": 2367,
+        "millis": 2061,
         "cached": false
     }
 ]

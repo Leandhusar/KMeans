@@ -3,9 +3,9 @@
         "ref:13b96c2d:/mnt/c/Users/Leandro/Documents/Client Server Architecture/Example1/example01/foo/src/concurrency.scala",
         "ref:a2f4919d:/mnt/c/Users/Leandro/Documents/Client Server Architecture/Example1/example01/foo/src/Data.scala",
         "ref:b1976a65:/mnt/c/Users/Leandro/Documents/Client Server Architecture/Example1/example01/foo/src/KMeans.scala",
-        "ref:e23d003d:/mnt/c/Users/Leandro/Documents/Client Server Architecture/Example1/example01/foo/src/KMeansBootstrapper.scala",
+        "ref:edd14aa4:/mnt/c/Users/Leandro/Documents/Client Server Architecture/Example1/example01/foo/src/KMeansBootstrapper.scala",
         "ref:400d64dd:/mnt/c/Users/Leandro/Documents/Client Server Architecture/Example1/example01/foo/src/random.scala"
     ],
-    "valueHash": 1458347473,
-    "inputsHash": -344955115
+    "valueHash": 52444700,
+    "inputsHash": 619814068
 }
